@@ -27,7 +27,7 @@ const jsonParser = bodyParser.json();
 app.use(jsonParser);
 
 app.get('/', (req, res) => {
-    res.send('Hello world com MongoDB!');
+    res.send('Corno');
 });
 
 // Endpoints de envio de mensagens
